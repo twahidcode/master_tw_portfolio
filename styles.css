@@ -1,0 +1,54 @@
+:root {
+    --branding-color: #EAD2A8;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-family: sans-serif; Arial,
+    font-weight: normal;
+}
+
+.hero{
+    background-color: var(--branding-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 36px;
+    
+}
+
+.btn-hero {
+    background-color: aliceblue;
+    color: black;
+    outline-color: black;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+
+.btn-learn {
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 20px;
+
+}
